@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timora - ساعة فاخرة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            padding: 15px;
+        }
+        img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        h1 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+        .price {
+            font-size: 18px;
+            color: #d4af37;
+            font-weight: bold;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #777;
+            margin-left: 10px;
+        }
+        .form-group {
+            margin-top: 15px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #d4af37;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #b8902d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/500x300" alt="ساعة Timora">
+        <h1>ساعة يد فاخرة - Timora</h1>
+        <p>
+            <span class="old-price">26,000 DZD</span>
+            <span class="price">19,000 DZD</span>
+        </p>
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="الاسم الكامل" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" placeholder="رقم الهاتف" required>
+            </div>
+            <button type="submit">تأكيد الطلب - الدفع عند الاستلام</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
